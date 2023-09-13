@@ -26,3 +26,35 @@ $ helm install my-mysql-chart chisquare-co/mysql
 ```
 $ helm delete my-mysql-chart
 ```
+
+## Add New Chart
+- Init a new chart
+```
+$ helm create sources/my-chart
+```
+
+- Work on the chart
+
+- Lint charts
+```
+$ helm lint sources/*
+```
+
+- Package charts
+```
+$ helm package sources/* -d ./dest
+```
+
+- Index charts
+```
+$ helm repo index --url https://chisquare-co.github.io/charts .
+```
+
+- Commit and Push
+```
+$ git add -i
+$ git commit -av
+$ git push origin master
+```
+
+
