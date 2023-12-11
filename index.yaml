@@ -1,14 +1,91 @@
 apiVersion: v1
 entries:
+  app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.89183+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 9e85f507fca2125a2c1cd235e8301f93e5d987d947b32c68d165253e61e1b856
+    name: app
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/app-0.1.0.tgz
+    version: 0.1.0
+  ghost:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.89209+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 6cbcbdbdf0eabb09a888bc1c9c83881dd3144cd4e69b714137c0215939400623
+    name: ghost
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/ghost-0.1.0.tgz
+    version: 0.1.0
+  mongo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.892335+01:00"
+    description: A Helm chart for Kubernetes
+    digest: fc7407da84bffe2fe40305f4433d0fb643ee1f6dcd57e90245339a2d071a727a
+    name: mongo
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/mongo-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-30T10:25:16.088735+01:00"
+    created: "2023-09-13T08:16:54.892583+01:00"
     description: A Helm chart for Kubernetes
-    digest: 1476416c3238f4a633b2abc41a8ea9986aa32ca318f96986b05d9ef849701ad1
+    digest: 72345e4057e025a834f43b4caa636b80516d2178eed5a5cfa20617def6bf5bc3
     name: mysql
     type: application
     urls:
-    - https://chisquare-run.github.io/charts/mysql-0.1.0.tgz
+    - https://chisquare-co.github.io/charts/dest/mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-30T10:25:16.087642+01:00"
+  namespace:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-09-13T08:16:54.892698+01:00"
+    description: Setup up a new namespace for Chisquare Kubernetes platform
+    digest: 1e53ae0352b300cd7a00f66175b35bb8175667d346471a1fcc8074a05a20c566
+    name: namespace
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/namespace-0.0.0.tgz
+    version: 0.0.0
+  redis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.892947+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 5df0dad64f3bca51759e515f0e88a90238b11fd6af390e7747f3c551e9f81524
+    name: redis
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/redis-0.1.0.tgz
+    version: 0.1.0
+  store:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.893182+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 0e5578313a2a747700cc1f91768974b5a37a78037ad8117fcda0fbdde97ae22e
+    name: store
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/store-0.1.0.tgz
+    version: 0.1.0
+  wordpress:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-13T08:16:54.893416+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 875de80c48de4425b82fac403d55747469e1dd1981e15d483bdadebbb4c539cd
+    name: wordpress
+    type: application
+    urls:
+    - https://chisquare-co.github.io/charts/dest/wordpress-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-13T08:16:54.891433+01:00"

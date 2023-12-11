@@ -1,0 +1,14 @@
+# Default values for namespace.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+namespace:
+  name: chisquare-namespace
+  labels: 
+    chisquare
+    app
+    store
+
+issuer:
+  name: chisquare-letsencrypt-issuer
+  email: integrations@chisquare.co
+  class: nginx

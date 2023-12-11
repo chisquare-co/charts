@@ -1,6 +1,6 @@
 apiVersion: v2
-name: app
-description: A Helm chart for deploying generic apps on Chisquare Kubernetes platform
+name: namespace
+description: Setup up a new namespace for Chisquare Kubernetes platform
 
 # A chart can be either an 'application' or a 'library' chart.
 #

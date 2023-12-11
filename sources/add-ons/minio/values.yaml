@@ -1,27 +1,8 @@
-# Default values for app.
+# Default values for minio.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-labels: 
-namespace: 
-  name: "chisquare-namespace"
-deployment:
-  name: 
-  replica: 1
-  autoscaling: 
-    enabled: false
-  image: 
-    name:
-    tag:
-  resources: 
-    memory:
-    cpu:
-  env: []
-service:
-  port: 
 
-ingress:
-hpa:
-
+replicaCount: 1
 
 image:
   repository: nginx

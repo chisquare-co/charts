@@ -1,0 +1,2 @@
+1. This charts just setup a new namespace on Chisquare Kubernetes.
+2. Specifically, it create the namespace and SSL certificate issuer, this is so that services in that namespace can easily add SSL to their ingress.
